@@ -7,7 +7,7 @@ const inputHeight = document.querySelector('#height')
 
 
 
-form.onsubmit = events => {
+form.onsubmit = event => {
   event.preventDefault()
 
  const weight = inputWeight.value
